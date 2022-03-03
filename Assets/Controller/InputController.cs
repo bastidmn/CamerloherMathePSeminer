@@ -10,24 +10,18 @@ namespace Controller
         {
             if (Input.GetKey(KeyCode.W))
             {
-                GameController.Instance.Forward();
             }
-
             if (Input.GetKey(KeyCode.S))
             {
-                GameController.Instance.Backward();
             }
             if (Input.GetKey(KeyCode.A))
             {
-                GameController.Instance.Left();
             }
             if (Input.GetKey(KeyCode.D))
             {
-                GameController.Instance.Right();
             }
             if (Input.GetKey(KeyCode.Space))
             {
-                GameController.Instance.Jump();
             }
             if (Input.GetKey(KeyCode.E))
             {
